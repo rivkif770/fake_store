@@ -1,12 +1,11 @@
 import React from 'react';
-import styles from './Electronics.module.css';
+import styles from './Books.module.css';
 
-const Electronics = ({ products }) => {
-  // const electronicsProducts = products.filter(item => item.category === 'electronics');
+const Books = ({ products }) => {
 
   return (
     <div className={styles.main}>
-      <h2>Electronics</h2>
+      <h2>Books</h2>
       <div className={styles.productGrid}>
         {products.map(item => (
           <div key={item.id} className={styles.productCard}>
@@ -20,4 +19,4 @@ const Electronics = ({ products }) => {
   );
 };
 
-export default Electronics;
+export default Books;
