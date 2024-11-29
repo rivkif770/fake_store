@@ -1,0 +1,21 @@
+.homeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4a90e2, #f3f4f6);
+  }
+  
+  .welcomeBox {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px 60px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 1s ease-in-out;
+    color: #333;
+    font-size: 2.8em;
+    margin-bottom: 15px;
+  }
+  
+  
